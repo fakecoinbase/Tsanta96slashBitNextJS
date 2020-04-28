@@ -1,14 +1,12 @@
-import Link from 'next/link';
+import Layout from '../components/Layout';
 
 const Index = () => (
-    <div>
-        <ul>
-            <li><Link href="/"><a>Home</a></Link></li>
-            <li><Link href="/ABOUT"><a>About</a></Link></li>
-        </ul>
-        <h1>About BitzPrice</h1>
-        <p>Application to view Bitcoin prices</p>
-    </div>
+    <Layout>
+        <div>
+            <h1>About BitzPrice</h1>
+            <p>Application to view Bitcoin prices</p>
+        </div>
+    </Layout>
 );
 
 export default Index;
